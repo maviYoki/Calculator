@@ -19,22 +19,25 @@
         int operation = 1;
         while (operation >= 0)
         {
-            // Console.Clear();
+            Console.Clear();
 
             Console.WriteLine("Selecione o número da operação a ser realizada");
             Console.WriteLine("1 - Adição ");
             Console.WriteLine("2 - Subtração");
             Console.WriteLine("3 - Divisão ");
             Console.WriteLine("4 - Multiplicação");
+            Console.WriteLine("5-  Sair");
             try
             {
                 string input = Console.ReadLine()!;
                 operation = int.Parse(input);
 
-                if (operation < 1 || operation > selector.Count)
+                if (operation == 5) break;
+
+                if (operation < 1 || operation > selector.Count + 1)
                 {
                     Console.WriteLine("Opção Invalída");
-                    break;
+
                 }
 
                 selector[operation - 1]();

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\maria\\Calculator\\Calculator.csproj": {}
+    "C:\\Users\\maria\\Calculator\\Calculator.csproj": {}
   },
   "projects": {
-    "c:\\Users\\maria\\Calculator\\Calculator.csproj": {
+    "C:\\Users\\maria\\Calculator\\Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\maria\\Calculator\\Calculator.csproj",
+        "projectUniqueName": "C:\\Users\\maria\\Calculator\\Calculator.csproj",
         "projectName": "Calculator",
-        "projectPath": "c:\\Users\\maria\\Calculator\\Calculator.csproj",
+        "projectPath": "C:\\Users\\maria\\Calculator\\Calculator.csproj",
         "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\maria\\Calculator\\obj\\",
+        "outputPath": "C:\\Users\\maria\\Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
